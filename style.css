@@ -616,14 +616,22 @@ font-size: large;
 
 
 body{
-    background-color: #512DA8
+background-color:  rgb(12, 42, 107) ; 
 }
 
 
 
 
 
-
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
 
 
   /* projctend */
