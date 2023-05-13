@@ -77,6 +77,8 @@
   
 
 
+
+
   /* imagination section end */
 
 
@@ -605,7 +607,7 @@ font-size: large;
     color: white;
 }
 .companypune:hover{
-    transform: scale(1.1);
+    transform: scale(1.09);
     color: red;
 }
 
@@ -613,8 +615,9 @@ font-size: large;
 
 
 
-
-
+body{
+    background-color: #512DA8
+}
 
 
 
