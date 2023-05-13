@@ -6,7 +6,7 @@
 
 .color{
 
-    color: rgb(54, 11, 154) !important;
+
     background-color: rgb(12, 42, 107) !important ;
 }
 
@@ -616,7 +616,7 @@ font-size: large;
 
 
 body{
-background-color:  rgb(12, 42, 107) ; 
+    background-color: rgb(12, 42, 107) !important ;
 }
 
 
