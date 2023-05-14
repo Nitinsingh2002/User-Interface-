@@ -101,10 +101,10 @@
     font-weight: bolder;
   }
   .thinkingpara1{
-    font-size: 1.8rem;
+    font-size: 1.8em;
   }
   .thinkingpara2{
-    font-size: 1.8rem;
+    font-size: 1.8em;
     margin-bottom: 3%;
   }
   .thinkingspan{
@@ -115,6 +115,7 @@
     margin: auto;
     text-align: justify;
    font-weight: 600;
+   font-size: 1em;
    
   }
   .thinkingbigone{
@@ -128,7 +129,7 @@
     transform: scale(1.2);
     color:rgb(194, 24, 24); 
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 780px) {
     .thinkingpara1,
     .thinkingpara2,
     .thinkingbigpara {
@@ -146,6 +147,12 @@
         transform: scale(1.1);
         color:rgb(194, 24, 24); 
       }
+      .thinkingbigpara{
+        width: 70%;
+        margin: auto;
+        font-size: large;
+      }
+      
   }
   
   @media screen and (max-width: 576px) {
@@ -172,6 +179,27 @@
 
 
   }
+
+
+  @media screen and (max-width: 576px){
+    .thinkingpara2{
+      padding-bottom: 5%;
+    }
+    .thinkingbigpara{
+        font-size: large;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
   
 
 /* thinking section end */
@@ -187,23 +215,23 @@
 
 
 N{
-    font-size: 2.4rem;
+    font-size: 2.4em;
    }
   
    .B{
-    font-size: 2.4rem;
+    font-size: 2.4em;
    }
    .from{
     font-size: 1.8rem;
    }
    .t{
-    font-size: 2.1rem;
+    font-size: 2.1em;
    }
    .F{
-    font-size: 2.1rem;
+    font-size: 2.1em;
    }
    .O{
-    font-size: 2.1rem;
+    font-size: 2.1em;
    }
    .fa{
     text-align: center;
@@ -270,9 +298,21 @@ color: grey;
 @media screen and (max-width: 576px){
     .strategicarrow{
         margin-top: 5%;
+        margin-bottom: 4% !important;
+        margin-left:1px !important;
+
+       
     }    
     .strategicpara{
-        margin-bottom: 10%;
+        margin-bottom: 5%;
+    }
+    .startegicone{
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+    }
+    .strategicservices{
+        margin-bottom: 4% !important ;
     }
 
 }
@@ -296,6 +336,7 @@ color: grey;
     padding-top: 2%;
     font-weight: bolder;
     color: white;
+    font-size: 1em;
 }
 
 .productivetalentpara{
@@ -313,7 +354,7 @@ color: grey;
 }
 
 .productivemanagementbutton{
-    width: 60%;
+    width: 65%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -340,12 +381,24 @@ margin-bottom: 5%;
 
 @media screen and (max-width: 707px){
     .pda{
-        margin-left: 55px;
+      width: 50%;
+      margin: auto;
+      margin-bottom: 2%;
+   
     }
 }
-@media screen and (max-width: 410px){
+
+
+
+@media screen and (max-width: 576px){
+   .productivetalentpara{
+    width: 80%;
+    margin: auto;
+   }
     .pda{
-        margin-left: 1px;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 4px;
     }
 }
 
@@ -439,20 +492,6 @@ flex-wrap: wrap;
     font-size: large;
 }
 
-@media screen and (max-width: 576px){
-      
-    .newssectionone{
-        margin-left: 55px;
-        padding-bottom: 10px;
-    }
-
- 
-}
-@media screen and (max-width: 410px){
-    .newssectionone{
-        margin-left: 1px;
-    }
-}
 
 
 .submit{
@@ -486,6 +525,42 @@ flex-wrap: wrap;
     color: white;
     background-color: red;
 }
+
+
+@media screen and (max-width: 628px){
+    .newssectionone{
+        margin: auto;
+        margin-bottom: 4%;
+    }
+    .newsbutton1{
+        height: 2.6rem;
+    }
+}
+
+
+
+@media screen and (max-width: 576px){
+      
+    .newssectionone{
+       width: 90%;
+       margin: auto;
+        padding-bottom: 10px;
+        margin-bottom: 4%;
+    }
+    .submit{
+      
+        margin: auto;
+    }
+    .newsbutton1{
+        margin: auto;
+        margin-bottom: 3%;
+       width: 80%;
+    }
+ 
+}
+
+
+
 
 
 
@@ -547,6 +622,7 @@ color: white;
     width: 100%;
 text-align: center;
 font-size: large;
+font-weight: bold;
 }
 .singleparadiv{
     width: 100;
@@ -558,10 +634,16 @@ font-size: large;
     } 
 }
 
-@media screen and (max-width: 590px){
+@media screen and (max-width: 576px){
     .single{
-        margin-left: 16px;
+       width: 100%;
+       margin: auto;
+       margin-bottom: 4%;
     }  
+    .seconslastsection{
+        width: 80%;
+        margin: auto;
+    }
 }
 
 .single:hover{
