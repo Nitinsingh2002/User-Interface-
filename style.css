@@ -88,7 +88,7 @@
     height: 100%;
     width: 100%;
     padding-top: 6%;
-    background-image: url(Images/WhatsApp\ Image\ 2023-05-13\ at\ 1.11.44\ AM.jpeg);
+    background-image: url(Images/first.jpeg);
     background-size: cover;
     padding-bottom: 12%;
     font-family: sans-serif;
@@ -96,7 +96,7 @@
 
   .thinkingheading{
     text-align: center;
-   color: darkblue;
+   color: white;
     font-family: sans-serif;
     font-weight: bolder;
   }
@@ -116,6 +116,8 @@
     text-align: justify;
    font-weight: 600;
    font-size: 1em;
+   color:black;
+   font-weight: bolder;
    
   }
   .thinkingbigone{
@@ -123,7 +125,7 @@
   }
   .thinkingbigone:hover{
     transform: scale(1.2);
-    color: blue;
+    color: red;
   }
   .thinkingbigtwo:hover{
     transform: scale(1.2);
