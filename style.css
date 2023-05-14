@@ -125,7 +125,7 @@
   }
   .thinkingbigone:hover{
     transform: scale(1.2);
-    color: red;
+    color: rgb(245, 5, 5);
   }
   .thinkingbigtwo:hover{
     transform: scale(1.2);
